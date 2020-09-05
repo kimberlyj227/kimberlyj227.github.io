@@ -1,0 +1,19 @@
+.title {
+  font-family: 'Poppins', sans-serif;
+  /* display: flex; */
+  justify-content: center;
+  color: rgba(179, 235, 242, 1);
+  padding: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  
+}
+
+h3 {
+  font-weight: 400;
+}
+

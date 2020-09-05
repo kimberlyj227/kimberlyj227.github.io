@@ -1,0 +1,14 @@
+.jumbotron {
+  background-image: url("../assets/heroImg.png");
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  margin-bottom: 0 !important;
+  
+}
+
+#logo {
+  margin-left: 150px;
+ 
+}
+

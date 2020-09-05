@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles/App.css";
+import Container from 'react-bootstrap/Container'
+import Jumbo from "./components/Jumbo";
+import About from "./components/About";
+import Rectangle from "./components/Rectangle";
+import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <Container fluid>
+      <header>
+        <Jumbo/>
       </header>
-    </div>
+      <div>
+        <Rectangle side={"rectangle-left"}/>
+        <About/>
+        <Rectangle side={"rectangle-right"}/>
+        <Portfolio/>
+        <Rectangle side={"rectangle-left"}/>
+        <Footer/>
+       
+      </div>
+        
+    </Container>
+
+
+
   );
 }
 

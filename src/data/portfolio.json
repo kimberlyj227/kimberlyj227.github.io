@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Worthy Origin",
+    "github": "https://github.com/Jdusang1/Worthy-Origin",
+    "deployed": "https://worthy-origin.herokuapp.com/",
+    "img": "worthyOrigin",
+    "id": 1,
+    "desc": "An app created with React.js that allows the user to track their carbon footprint for the foods they frequently buy. This app uses external APIs as well as a Mongo database."
+  },
+
+  {
+    "name": "Lyric Cloud",
+    "github": "https://github.com/kimberlyj227/lyric-map",
+    "deployed": "https://kimberlyj227.github.io/lyric-map/index.html",
+    "img": "lyricCloud",
+    "id": 2,
+    "desc": "When the user searches for a song, this app creates a word cloud based off the song lyrics. This app utilizes react-word-cloud and an external lyrics API."
+  },
+
+  {
+    "name": "React Staff Directory",
+    "github": "https://github.com/kimberlyj227/staff-directory",
+    "deployed": "https://kimberlyj227.github.io/staff-directory/index.html",
+    "img": "staffdir",
+    "id": 3,
+    "desc": "This app allows the user to view and search for different contacts in their directory."
+  },
+
+  {
+    "name": "Fitness Tracker",
+    "github": "https://github.com/kimberlyj227/fitness-tracker",
+    "deployed": "https://liftnow-brunchlater.herokuapp.com/",
+    "img": "fitnesstracker",
+    "id": 4,
+    "desc": "Keeping track of one's workouts is made easier with this fitness tracker! This allows the user to create a workout and update the workout in progress as well as view charts about their progress. "
+  },
+  {
+    "name": "Pantheos",
+    "github": "https://github.com/anderam17/Pantheos",
+    "deployed": "https://pantheos-education.herokuapp.com/",
+    "img": "pantheos" ,
+    "id": 5,
+    "desc": "An app created to allow teachers to easily keep track of their students. This app was created using mySQL and handlebars."
+  }
+  
+
+
+]

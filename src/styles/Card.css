@@ -1,0 +1,16 @@
+.card {
+  padding: 10px;
+  height: 100%;
+  line-height: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-link {
+  color: rgb(248, 146, 120);
+  font-size: 16px;;
+}
+
+.card-image-top {
+  height: 300px;
+}
+

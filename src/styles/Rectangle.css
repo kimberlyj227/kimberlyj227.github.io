@@ -1,0 +1,17 @@
+.rectangle-left {
+  background-color: rgb(248, 146, 120);
+  width: 20px;
+  height: 80px;
+  margin-left: 25%;
+  margin-bottom: 0 !important;
+
+}
+
+.rectangle-right {
+  background-color: rgb(248, 146, 120);
+  width: 20px;
+  height: 80px;
+  margin-left: 75%;
+  margin-bottom: 0 !important;
+}
+

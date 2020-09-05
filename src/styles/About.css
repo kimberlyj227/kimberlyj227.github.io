@@ -1,0 +1,21 @@
+#about {
+    background-color: rgb(248, 146, 120);
+    text-align: center;
+    padding: 30px;
+    margin-top: 0 !important;
+    color: #f7f7f7;
+}
+
+h2 {
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 400px;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 4.25rem;
+}
