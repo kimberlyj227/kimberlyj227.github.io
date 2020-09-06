@@ -5,6 +5,7 @@ import projects from "../data/portfolio.json";
 import PortfolioCard from "./Card";
 
 
+
 const Portfolio = () => {
 
   return (
@@ -12,23 +13,26 @@ const Portfolio = () => {
       <Row>
         <h2>PROJECTS I'VE WORKED ON</h2>
       </Row>
-      <Row>
-        {projects.map(({name, github, deployed, img, id, desc}) => (
-          <Col key={id} className="cards">
-            <PortfolioCard 
-              name={name}
-              github={github}
-              deployed={deployed}
-              img={img}
-              desc={desc}
-            />
-  
-          </Col>
-        ))}
+     
+        <Row>
+          {projects.map(({name, github, deployed, img, id, desc}) => (
+            <Col key={id} className="cards">
+              <PortfolioCard 
+                name={name}
+                github={github}
+                deployed={deployed}
+                img={img}
+                desc={desc}
+              />
+    
+            </Col>
+          ))}
 
-      </Row>
+        </Row>
+
     </div>
   )
 }
 
 export default Portfolio;
+

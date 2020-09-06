@@ -10,23 +10,27 @@ import Footer from "./components/Footer";
 
 
 
+
 function App() {
   return (
-    <Container fluid>
-      <header>
-        <Jumbo/>
-      </header>
-      <div>
-        <Rectangle side={"rectangle-left"}/>
-        <About/>
-        <Rectangle side={"rectangle-right"}/>
-        <Portfolio/>
-        <Rectangle side={"rectangle-left"}/>
-        <Footer/>
-       
-      </div>
+ 
+
+      <Container fluid>
+        <header>
+          <Jumbo/>
+        </header>
+        <div>
+          <Rectangle side={"rectangle-left"}/>
+          <About/>
+          <Rectangle side={"rectangle-right"}/>
+          <Portfolio/>
+          <Rectangle side={"rectangle-left"}/>
+          <Footer/>
         
-    </Container>
+        </div>
+          
+      </Container>
+
 
 
 
