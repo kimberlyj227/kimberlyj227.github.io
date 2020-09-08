@@ -1,10 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import "../styles/About.css";
 import {Row, Col} from "react-bootstrap";
 import {GiCottonFlower} from "react-icons/gi";
 import SkillsCard from "./SkillsCard";
 
 const About = () => {
+  const [init, setInit] = useState(false);
+
   return (
     <div id="about">
       <Row>

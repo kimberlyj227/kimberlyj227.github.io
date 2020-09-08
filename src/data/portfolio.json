@@ -2,7 +2,7 @@
   {
     "name": "Worthy Origin",
     "github": "https://github.com/Jdusang1/Worthy-Origin",
-    "deployed": "https://worthy-origin.herokuapp.com/",
+    "deployed": "https://worthyorigin.herokuapp.com/",
     "img": "worthyOrigin",
     "id": 1,
     "desc": "An app created with React.js that allows the user to track their carbon footprint for the foods they frequently buy. This app uses external APIs as well as a Mongo database."

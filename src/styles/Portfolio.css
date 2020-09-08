@@ -1,5 +1,6 @@
 #portfolio { 
-    background-color:#FDD185; 
+    background-image: linear-gradient(to top right, #e17065, #fbc079, #fde8a5);
+    /* height: 100vh; */
     /* position: absolute;
     left: 0px;
     top: 1338px;
@@ -9,3 +10,4 @@
     padding: 30px;
   
 }
+

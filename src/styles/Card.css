@@ -11,6 +11,15 @@
 }
 
 .card-image-top {
-  height: 300px;
+  height: 50% !important;
 }
 
+.portfolio-card {
+  width: 35rem;
+  margin: 0 auto;
+}
+
+.cardCol {
+  display: flex;
+  justify-content: center;
+}

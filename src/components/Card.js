@@ -1,36 +1,38 @@
-import React from "react";
+import React, {useContext} from "react";
 import {Card, CardDeck} from "react-bootstrap";
 import {FaGithub, FaLaptopCode} from "react-icons/fa";
 import "../styles/Card.css";
+import ProjectContext from "../data/ProjectContext";
 
 
-const PortfolioCard = ({name, github, deployed, id, img, desc}) => {
+const PortfolioCard = () => {
+  const {project} = useContext(ProjectContext);
+
   return (
-    <CardDeck>
+    <CardDeck className="portfolio-card">
       <Card >
-        <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/${img}.png`}  />
+        <Card.Img className="cardImg" variant="top" src={`${process.env.PUBLIC_URL}/img/${project.img}.png`}  />
       <hr/>
 
       <Card.Body>
 
-        <Card.Title>{name}</Card.Title>
+        <Card.Title>{project.name}</Card.Title>
 
         <Card.Text>
-          {desc}
+          {project.desc}
         </Card.Text>
 
       </Card.Body>
 
-        
       <Card.Footer>
-
         <Card.Link 
-          href={github}> 
+          href={project.github}> 
             <FaGithub/> Github Repo
         </Card.Link>
         <br/>
+
         <Card.Link 
-          href={deployed}> 
+          href={project.deployed}> 
             <FaLaptopCode/> Deployed App
         </Card.Link>
         

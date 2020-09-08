@@ -1,5 +1,6 @@
 .jumbotron-fluid {
   height: 100vh;
+  
 }
 
 #logo {
@@ -11,6 +12,13 @@
   -moz-transform: translateY(30%);
   -webkit-transform: translateY(30%);
   -o-transform: translateY(30%); 
+}
+
+#logo:hover
+{
+        -webkit-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg);
 }
 
 .arrows {
@@ -40,3 +48,4 @@
 .extraClass {
   font-size: 20px !important;
 }
+

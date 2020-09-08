@@ -1,15 +1,17 @@
 #about {
-    background-color: #F59C72;
+    background-image: linear-gradient(to bottom right, #e17065, #fbc079, #fde8a5);
     text-align: center;
     padding: 30px;
     margin-top: 0 !important;
+    height: 100vh;
   
 }
 
 h2, h5 {
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 20px;
   text-align: center;
+  color: #f7f7f7;
 }
 
 .list-group-item {
