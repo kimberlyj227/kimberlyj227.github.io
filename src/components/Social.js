@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaRegFilePdf } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
+
 import "../styles/Social.css";
 
 
@@ -17,7 +18,7 @@ function Social() {
         </a>
       </span>
       <span>
-          <FaRegFilePdf  className="icon"/>
+          <FaFilePdf  className="icon"/>
       </span>
 
     </div>

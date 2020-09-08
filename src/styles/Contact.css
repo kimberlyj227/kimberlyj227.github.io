@@ -1,0 +1,13 @@
+#contact {
+  background-color: #FDF1C2;
+}
+
+.form-group {
+  padding: 20px;
+  margin-bottom: 10px !important;
+}
+
+.submit {
+  margin: 0 auto;
+  padding: 20px;
+}

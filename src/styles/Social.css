@@ -1,14 +1,14 @@
 .social {
-  font-size: 30px;
-  color: rgb(248, 146, 120);
-}
-
-.social span {
-  margin: 0 20px;
-  color: rgb(248, 146, 120);
-
+  font-size: 50px;
+  color: #E17065;
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
 }
 
 .icon {
-  color: rgb(248, 146, 120);
+  color: #E17065;
+  margin-right: 30px;
+  margin-bottom: 20px;
 }
+

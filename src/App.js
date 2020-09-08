@@ -6,7 +6,8 @@ import About from "./components/About";
 import Rectangle from "./components/Rectangle";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
-
+import Contact from "./components/Contact";
+import Landing from "./components/Landing";
 
 
 
@@ -15,21 +16,29 @@ function App() {
   return (
  
 
-      <Container fluid>
-        <header>
-          <Jumbo/>
-        </header>
-        <div>
-          <Rectangle side={"rectangle-left"}/>
-          <About/>
-          <Rectangle side={"rectangle-right"}/>
-          <Portfolio/>
-          <Rectangle side={"rectangle-left"}/>
-          <Footer/>
-        
-        </div>
+      <>
+        <Landing />
+        <About/>
+        <Portfolio/>
+        <Contact />
+
+      </>  
+   
+        // {/* <header>
+        //   <Jumbo/>
+        // </header>
+        // <div>
+        //   <Rectangle side={"rectangle-left"}/>
+        //   <About/>
+        //   <Rectangle side={"rectangle-right"}/>
+        //   <Portfolio/>
+        //   <Rectangle side={"rectangle-left"}/>
+        //   <Contact />
+        //   <Rectangle side={"rectangle-right"} />
+        //   <Footer/> 
+        // </div>  */}
           
-      </Container>
+  
 
 
 

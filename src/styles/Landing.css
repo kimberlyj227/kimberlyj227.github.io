@@ -1,19 +1,42 @@
-.title {
-  font-family: 'Poppins', sans-serif;
-  /* display: flex; */
-  justify-content: center;
-  color: rgba(179, 235, 242, 1);
-  padding: 50px;
+.jumbotron-fluid {
+  height: 100vh;
 }
 
-h1 {
-  font-size: 60px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  
+#logo {
+  margin-left: 150px;
+  height: 500px;
+  top: 30%;
+  transform: translateY(30%);
+  -ms-transform: translateY(30%);
+  -moz-transform: translateY(30%);
+  -webkit-transform: translateY(30%);
+  -o-transform: translateY(30%); 
 }
 
-h3 {
-  font-weight: 400;
+.arrows {
+  font-size: 40px;
+  color: white;
 }
 
+#down {
+  position: absolute;
+  bottom: 0;
+  left: 50%
+}
+
+#left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+#right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  color: #858585
+}
+
+.extraClass {
+  font-size: 20px !important;
+}
