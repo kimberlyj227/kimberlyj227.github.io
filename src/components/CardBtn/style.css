@@ -2,20 +2,21 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  position: absolute;
+  /* position: absolute; */
   border: none;
-  bottom: 10%;
-  color: #fff;
+  /* bottom: 30%; */
+  color: #f4b46b;
   font-size: 24px;
   cursor: pointer;
   font-family: FontAwesome;
   outline: none;
+  margin: 10px auto;
 }
 
 .back {
-  top: 50%;
-  left: 20%;
-  background: #E17065;
+  /* top: 50%;
+  left: 10%; */
+  background: #f7f7f7;
 }
 
 .back::after {
@@ -23,9 +24,9 @@
 }
 
 .next {
-  top: 50%;
-  right: 20%;
-  background: #E17065;
+  /* top: 50%;
+  right: 10%; */
+  background: #f7f7f7;
 }
 
 .next::after {
@@ -50,3 +51,17 @@
     font-size: 24px;
   }
 }
+
+/* @media only screen and (max-width: 600px) {
+  .back {
+    bottom: 40px;
+    left: 0;
+    background: #f7f7f7;
+  }
+
+  .next {
+    bottom: 0;
+    right: 0;
+    background: #f7f7f7;
+  }
+} */

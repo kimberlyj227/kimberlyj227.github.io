@@ -1,13 +1,28 @@
 #portfolio { 
-    background-image: linear-gradient(to top right, #e17065, #fbc079, #fde8a5);
-    /* height: 100vh; */
-    /* position: absolute;
-    left: 0px;
-    top: 1338px;
-    width: 1200px;
-    height: 721px;
-    z-index: 162; */
+    background-color: #f4b46b;
     padding: 30px;
-  
+   
 }
+
+#portfolio h2, h5 {
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    color: #f7f7f7;
+  }
+  
+  #portfolio h2 {
+  
+      font-size: 52px;
+      font-family: "Poppins";
+      font-weight: 700;
+      line-height: 1.058;
+      text-align: center;
+    
+  }
+
+#next-back {
+    display: flex;
+    justify-items: center;
+}  
 

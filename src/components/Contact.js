@@ -1,12 +1,15 @@
 import React from "react";
 import "../styles/Contact.css";
-import {Row, Col, Form, Button} from "react-bootstrap";
+import {Row, Col, Form} from "react-bootstrap";
 
 const Contact = () => {
 
   return (
     <div id="contact">
       <Row>
+        <h2>CONNECT WITH ME</h2>
+      </Row>
+      <Row id="form">
         <Col>
         <Form  action="https://formsubmit.co/7d21ae184aa877d438856b60089643d9" method="POST">
           <Form.Group controlId="formBasicEmail">
@@ -21,14 +24,10 @@ const Contact = () => {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows="3" />
           </Form.Group>
-          <Button className="submit" variant="primary" type="submit">
+          <button className="submit" variant="primary" type="submit">
             Send
-          </Button>
+          </button>
         </Form>
-        </Col>
-
-        <Col>
-          links
         </Col>
       </Row>
     </div>

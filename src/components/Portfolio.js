@@ -56,22 +56,28 @@ const Portfolio = () => {
         <h2>MY PROJECTS</h2>
       </Row>
      
-        <Row>
-          <Col className="cardCol">
-              <ProjectContext.Provider value={{project, projects, handleBtnClick}}>
-              <PortfolioCard className="cards"/>
-                <CardBtn
-                  style={{ opacity: 1 }}
-                  data-value="back"
-                />
-                <CardBtn
-                  style={{ opacity: 1 }}
-                  data-value="next"
-                />
-              </ProjectContext.Provider>
-          </Col>
+        <ProjectContext.Provider value={{project, projects, handleBtnClick}}>
+          <Row>
+              
+              <Col className="cardCol">
+                  <PortfolioCard className="cards"/>
+              </Col>
+  
+          </Row>
 
-        </Row>
+          <Row>
+            <Col id="next-back">
+              <CardBtn
+                style={{ opacity: 1 }}
+                data-value="back"
+              />
+              <CardBtn
+                style={{ opacity: 1 }}
+                data-value="next"
+              />
+            </Col>
+          </Row>
+        </ProjectContext.Provider>
 
     </div>
   )

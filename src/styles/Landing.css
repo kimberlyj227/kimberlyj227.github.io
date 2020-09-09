@@ -1,25 +1,7 @@
 .jumbotron-fluid {
-  height: 100vh;
-  
-}
-
-#logo {
-  margin-left: 150px;
   height: 500px;
-  top: 30%;
-  transform: translateY(30%);
-  -ms-transform: translateY(30%);
-  -moz-transform: translateY(30%);
-  -webkit-transform: translateY(30%);
-  -o-transform: translateY(30%); 
 }
 
-#logo:hover
-{
-        -webkit-transform: rotateZ(-10deg);
-        -ms-transform: rotateZ(-10deg);
-        transform: rotateZ(-10deg);
-}
 
 .arrows {
   font-size: 40px;

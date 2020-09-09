@@ -12,10 +12,15 @@ const SkillsCard = () => {
         <Card.Body>
           
             <ListGroup>
+              <ListGroupItem>Front End</ListGroupItem>
+              <ListGroupItem> <hr/> </ListGroupItem>
               <ListGroupItem> <DiJavascript1/> JavaScript</ListGroupItem>
               <ListGroupItem> <FaReact/> React</ListGroupItem>
               <ListGroupItem> <FaHtml5/> HTML</ListGroupItem>
               <ListGroupItem> <FaCss3/> CSS</ListGroupItem>
+              <ListGroupItem> <hr/> </ListGroupItem>
+              <ListGroupItem>Back End</ListGroupItem>
+              <ListGroupItem> <hr/> </ListGroupItem>
               <ListGroupItem> <GrMysql/> mySQL</ListGroupItem>
               <ListGroupItem> <DiMongodb/> Mongo</ListGroupItem>
               <ListGroupItem> <FaNodeJs/> Node.js</ListGroupItem>

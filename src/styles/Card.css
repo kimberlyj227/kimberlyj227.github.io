@@ -6,8 +6,8 @@
 }
 
 .card-link {
-  color: rgb(248, 146, 120);
-  font-size: 16px;;
+  color: #f4b46b;
+  font-size: 18px;;
 }
 
 .card-image-top {
@@ -22,4 +22,9 @@
 .cardCol {
   display: flex;
   justify-content: center;
+}
+
+.card-footer { 
+  background-color: transparent !important;
+  font-weight: 700;
 }

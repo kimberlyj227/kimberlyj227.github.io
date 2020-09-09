@@ -1,13 +1,47 @@
 #contact {
-  background-image: linear-gradient(to bottom left, #e17065, #fbc079, #fde8a5);
+  background-color: #f7f7f7;
+  font-family: "Roboto";
+  margin: 0 auto;
+  
 }
 
-.form-group {
-  padding: 20px;
-  margin-bottom: 10px !important;
+#contact h2 {
+    font-size: 52px;
+    font-family: "Poppins";
+    font-weight: 700;
+    line-height: 1.058;
+    text-align: center;
+    color: #f4b46b;
+    margin-top: 30px;
 }
+
+
+
+#form {
+  padding: 20px;
+  margin: 0 auto;
+  width: 75%;
+}
+
 
 .submit {
+  background-color: #f4b46b ;
+  color: #f7f7f7 ;
+  border: none;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.submit:hover {
+  background-color: #f7f7f7;
+  border: 2px solid #f4b46b ;
+  color: #9e9e9e;
+}
+
+.contact-icons{
+  color: #f4b46b;
+  font-size: 60px;
+
 }

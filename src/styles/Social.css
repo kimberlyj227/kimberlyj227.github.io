@@ -1,14 +1,19 @@
 .social {
   font-size: 50px;
-  color: #E17065;
+  color: #f7f7f7;
   position: absolute;
-  bottom: 20px;
-  right: 25px;
+  /* bottom: 20px;
+  right: 25px; */
 }
 
 .icon {
-  color: #E17065;
+  color: #f7f7f7;
   margin-right: 30px;
   margin-bottom: 20px;
 }
+
+.icon:hover{
+  color: #e08279;
+}
+
 
