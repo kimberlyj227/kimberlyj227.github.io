@@ -1,0 +1,33 @@
+.jumbotron-fluid {
+  height: 500px;
+}
+
+
+.arrows {
+  font-size: 40px;
+  color: white;
+}
+
+#down {
+  position: absolute;
+  bottom: 0;
+  left: 50%
+}
+
+#left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+#right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  color: #858585
+}
+
+.extraClass {
+  font-size: 20px !important;
+}
+

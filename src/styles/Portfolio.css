@@ -1,0 +1,28 @@
+#portfolio { 
+    background-color: #f4b46b;
+    padding: 30px;
+   
+}
+
+#portfolio h2, h5 {
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    color: #f7f7f7;
+  }
+  
+  #portfolio h2 {
+  
+      font-size: 52px;
+      font-family: "Poppins";
+      font-weight: 700;
+      line-height: 1.058;
+      text-align: center;
+    
+  }
+
+#next-back {
+    display: flex;
+    justify-items: center;
+}  
+

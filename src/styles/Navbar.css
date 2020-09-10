@@ -1,0 +1,42 @@
+.nav {
+  background-color:transparent;
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+  z-index: 1030;
+  
+}
+
+h4 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #424242;
+}
+
+h4:hover {
+  cursor: pointer;
+  
+}
+
+.link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #424242;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    bottom: 0;
+    left: 30px;
+  }
+
+  h4 {
+    font-size: 16px !important;
+  }
+}

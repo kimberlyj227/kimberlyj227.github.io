@@ -1,0 +1,33 @@
+.jumbotron{
+  background-image: url("../assets/heroImg.png");
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  margin-bottom: 0 !important;
+  
+}
+
+#logo {
+  margin-left: 150px;
+ 
+}
+
+#logo:hover
+{
+        -webkit-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg);
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    margin-left: 40px;
+    height: 300px;
+  }
+
+  .jumbotron {
+    margin: 0;
+    height: 400px;
+  }
+}
+

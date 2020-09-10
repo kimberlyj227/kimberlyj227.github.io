@@ -1,0 +1,30 @@
+.card {
+  padding: 10px;
+  height: 100%;
+  line-height: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-link {
+  color: #f4b46b;
+  font-size: 18px;;
+}
+
+.card-image-top {
+  height: 50% !important;
+}
+
+.portfolio-card {
+  width: 35rem;
+  margin: 0 auto;
+}
+
+.cardCol {
+  display: flex;
+  justify-content: center;
+}
+
+.card-footer { 
+  background-color: transparent !important;
+  font-weight: 700;
+}
