@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31be524c.chunk.css",
+    "main.js": "/static/js/main.1284c918.chunk.js",
+    "main.js.map": "/static/js/main.1284c918.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.0b1590f7.chunk.js": "/static/js/2.0b1590f7.chunk.js",
+    "static/js/2.0b1590f7.chunk.js.map": "/static/js/2.0b1590f7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.86f063a84a3eea03e48d28aa15e1784b.js": "/precache-manifest.86f063a84a3eea03e48d28aa15e1784b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.31be524c.chunk.css.map": "/static/css/main.31be524c.chunk.css.map",
+    "static/js/2.0b1590f7.chunk.js.LICENSE.txt": "/static/js/2.0b1590f7.chunk.js.LICENSE.txt",
+    "static/media/Jumbo.css": "/static/media/heroImg.75a288e1.png",
+    "static/media/kimberly.owens.resume.pdf": "/static/media/kimberly.owens.resume.930b836e.pdf",
+    "static/media/logo.png": "/static/media/logo.44f853b0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.0b1590f7.chunk.js",
+    "static/css/main.31be524c.chunk.css",
+    "static/js/main.1284c918.chunk.js"
+  ]
+}
