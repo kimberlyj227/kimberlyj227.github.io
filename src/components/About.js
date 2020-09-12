@@ -19,7 +19,7 @@ const About = () => {
             <SkillsCard/>
           </Col>
           <Col id="facts" >
-            <p>I'm a full-stack developer with a background in education and project management. I am a quick learner who can stay calm and focused under pressure. I truly enjoy the challenge of coding; it allows me to creatively problem solve while creating interesting applications and projects.</p>
+            <p>I'm a full-stack developer well-versed in JavaScript, React.js, and back-end technologies. I have a background in education and project management. Known as a quick learner who stays calm and focused under pressure. I truly enjoy the challenge of coding; it allows me to creatively problem solve while creating interesting applications and projects.</p>
             <hr/>
             <h5>Fun Facts About Me:</h5>
             <p >
