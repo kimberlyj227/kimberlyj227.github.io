@@ -49,13 +49,14 @@ h2, h5 {
   margin-top: 10px;
 }
 
-#facts a {
+
+.links {
   text-decoration: none;
   color: #f4b46b;
 }
 
-#facts a:hover {
-  color: #f4b46b73;
+.links:hover {
+  color: #e08279 !important;
 }
 
 .icons {

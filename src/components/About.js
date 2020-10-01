@@ -35,30 +35,26 @@ const About = () => {
           </p>
           <GiCottonFlower className="icons"/>
           <p>
-            <a href="https://github.com/kimberlyj227" target="_blank" rel="noopener noreferrer"> 
+            <a href="https://github.com/kimberlyj227" target="_blank" rel="noopener noreferrer" className="links"> 
               Github: kimberlyj227
             </a>
           </p>
           <GiCottonFlower className="icons"/>
           <p>
-            <a href="https://www.linkedin.com/in/kimberly-owens27" target="_blank" rel="noopener noreferrer"> 
+            <a href="https://www.linkedin.com/in/kimberly-owens27" target="_blank" rel="noopener noreferrer" className="links"> 
               Connect with me on LinkedIn
             </a>
           </p>
         
           <GiCottonFlower className="icons"/>
           <p>
-            <a href={resume} target="_blank" rel="noopener noreferrer" >
+            <a href={resume} target="_blank" rel="noopener noreferrer" className="links" >
                 View my resume
             </a>
           </p>
 
           <GiCottonFlower className="icons"/>
-          <p>
-            <a href="#contact">
-              Enough about me, your turn!
-            </a>
-          </p>
+          
           </Col>
         </Row>
   

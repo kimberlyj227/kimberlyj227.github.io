@@ -7,7 +7,12 @@
 
 .card-link {
   color: #f4b46b;
-  font-size: 18px;;
+  font-size: 18px;
+}
+
+.card-link:hover {
+  color: #e08279 !important;
+  
 }
 
 .card-image-top {
