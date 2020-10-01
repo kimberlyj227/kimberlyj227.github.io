@@ -54,6 +54,10 @@ h2, h5 {
   color: #f4b46b;
 }
 
+#facts a:hover {
+  color: #f4b46b73;
+}
+
 .icons {
   font-size: 20px;
   margin-bottom: 10px;

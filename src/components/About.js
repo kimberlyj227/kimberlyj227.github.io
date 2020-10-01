@@ -3,7 +3,7 @@ import "../styles/About.css";
 import {Row, Col} from "react-bootstrap";
 import {GiCottonFlower} from "react-icons/gi";
 import SkillsCard from "./SkillsCard";
-import resume from '../assets/kimberly.owens.resume.pdf';
+import resume from '../assets/kowens_resume.pdf';
 
 
 const About = () => {
