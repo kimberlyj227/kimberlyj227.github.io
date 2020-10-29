@@ -9,7 +9,7 @@ const Nav = () => {
         className="nav"> 
         <a href="#about" className="link"> ABOUT </a>   ||    
         <a href="#portfolio" className="link"> PORTFOLIO </a>   ||    
-        <a href="#contact" className="link"> CONTACT </a>
+        <a href="mailto: kimberly.j.owens@gmail.com" className="link"> EMAIL </a>
       </h4>
     </nav>
   )

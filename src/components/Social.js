@@ -9,21 +9,21 @@ function Social() {
     <div className="social">
       <span>
         <a href="https://github.com/kimberlyj227" target="_blank" rel="noopener noreferrer"> 
-          <FaGithub className="icon"/>
+          <FaGithub className="social-icon"/>
         </a > 
       </span>
       <span>
         <a href="https://www.linkedin.com/in/kimberly-owens27" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin className="icon"/>
+          <FaLinkedin className="social-icon"/>
         </a>
       </span>
       <span>
         <a href={resume} target="_blank" rel="noopener noreferrer">
-          <FaFilePdf  className="icon"/>
+          <FaFilePdf  className="social-icon"/>
         </a>  
       </span>
       <span>
-      <a href="mailto: kimberly.j.owens@gmail.com"  className="icon">
+      <a href="mailto: kimberly.j.owens@gmail.com"  className="social-icon">
             <FaEnvelope />
           </a>
       </span>

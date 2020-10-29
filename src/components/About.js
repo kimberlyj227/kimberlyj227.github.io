@@ -3,7 +3,7 @@ import "../styles/About.css";
 import {Row, Col} from "react-bootstrap";
 import {GiCottonFlower} from "react-icons/gi";
 import SkillsCard from "./SkillsCard";
-import resume from '../assets/kimberly.owens.resume.pdf';
+import resume from '../assets/kowens_resume.pdf';
 
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
           <h2>ABOUT KIMBERLY</h2>
         </Row>
         <Row>
-          <Col id="skills" >
+          <Col id="skills" sm={12} md={6}>
             <SkillsCard/>
           </Col>
           <Col id="facts" >
@@ -35,30 +35,26 @@ const About = () => {
           </p>
           <GiCottonFlower className="icons"/>
           <p>
-            <a href="https://github.com/kimberlyj227" target="_blank" rel="noopener noreferrer"> 
+            <a href="https://github.com/kimberlyj227" target="_blank" rel="noopener noreferrer" className="links"> 
               Github: kimberlyj227
             </a>
           </p>
           <GiCottonFlower className="icons"/>
           <p>
-            <a href="https://www.linkedin.com/in/kimberly-owens27" target="_blank" rel="noopener noreferrer"> 
+            <a href="https://www.linkedin.com/in/kimberly-owens27" target="_blank" rel="noopener noreferrer" className="links"> 
               Connect with me on LinkedIn
             </a>
           </p>
         
           <GiCottonFlower className="icons"/>
           <p>
-            <a href={resume} target="_blank" rel="noopener noreferrer" >
+            <a href={resume} target="_blank" rel="noopener noreferrer" className="links" >
                 View my resume
             </a>
           </p>
 
           <GiCottonFlower className="icons"/>
-          <p>
-            <a href="#contact">
-              Enough about me, your turn!
-            </a>
-          </p>
+          
           </Col>
         </Row>
   

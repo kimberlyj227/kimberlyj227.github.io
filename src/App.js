@@ -5,10 +5,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-
-
-
-
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -22,10 +19,8 @@ function App() {
         <div>
    
           <About/>
-    
+          {/* <Gallery /> */}
           <Portfolio/>
-
-          <Contact />
           
         </div>  
         <footer>

@@ -6,14 +6,14 @@
   right: 25px; */
 }
 
-.icon {
+.social-icon {
   color: #f7f7f7;
   margin-right: 30px;
   margin-bottom: 20px;
 }
 
-.icon:hover{
-  color: #e08279;
+.social-icon:hover{
+  color: #e08279 !important;
 }
 
 
