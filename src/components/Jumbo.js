@@ -13,6 +13,7 @@ const Jumbo = () => {
       <div>
         <Image src={logo} alt="Kimberly Owens Logo" fluid id="logo"/>
       </div>
+      
       <Nav/>
     </Jumbotron>
     </>

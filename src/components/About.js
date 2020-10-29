@@ -15,7 +15,7 @@ const About = () => {
           <h2>ABOUT KIMBERLY</h2>
         </Row>
         <Row>
-          <Col id="skills" >
+          <Col id="skills" sm={12} md={6}>
             <SkillsCard/>
           </Col>
           <Col id="facts" >
