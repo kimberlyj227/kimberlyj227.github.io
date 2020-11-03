@@ -1,11 +1,12 @@
 import React from "react";
-import "./styles/App.css";
+
 import Jumbo from "./components/Jumbo";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
+// import About from "./components/About";
+// import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
+import { Wrapper } from "./styles";
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
         </header>
         <div>
    
-          <About/>
+          {/* <About/> */}
           {/* <Gallery /> */}
-          <Portfolio/>
+          {/* <Portfolio/> */}
           
         </div>  
         <footer>

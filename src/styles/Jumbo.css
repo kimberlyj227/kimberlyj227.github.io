@@ -1,33 +1,99 @@
 .jumbotron{
-  background-image: url("../assets/heroImg.png");
+  background-image: url("../assets/yellowhero.png");
   background-size: cover;
-  height: 600px;
+  height: 710px;
   position: relative;
   margin-bottom: 0 !important;
-  
 }
 
-#logo {
-  margin-left: 150px;
+.headings {
+  text-align: center;
+  font-family: "Raleway", serif;
+  color: #fff;
+  line-height: 1.833;
+}
+
+.headings:first-of-type{
+  margin-top: 100px;
+}
+
+ .jumbotron h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+ .jumbotron h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+ .jumbotron h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#about {
+  margin-top: 100px;
+}
+
+#about p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(66, 66, 66);
+  line-height: 1.2;
+  text-align: left;
+  width: 300px;
+}
+
+#about h3 {
+  font-family: "Roboto", sans-serif;
+  color: #d79d1f;
+  line-height: 1.2;
+  text-align: center;
+  width: 300px;
+}
+
+.Typewriter {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+/* .about {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 5100px;
+  height: 7091px;
+  z-index: 253;
+}
+.I_believe_that_anything_is_possible_when_it_com {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(66, 66, 66);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 1968.766px;
+  top: 501.469px;
+  width: 505px;
+  height: 167px;
+  z-index: 252;
+}
+.ABOUT {
+  font-size: 30px;
+  font-family: "Raleway";
+  color: rgb(215, 157, 31);
+  font-weight: bold;
+  line-height: 1.833;
+  text-align: center;
+  position: absolute;
+  left: 1927.723px;
+  top: 509.772px;
+  width: 105px;
+  height: 23px;
+  z-index: 251;
+} */
+
+
+
  
-}
-
-#logo:hover
-{
-        -webkit-transform: rotateZ(-10deg);
-        -ms-transform: rotateZ(-10deg);
-        transform: rotateZ(-10deg);
-}
-
-@media only screen and (max-width: 600px) {
-  #logo {
-    margin-left: 40px;
-    height: 300px;
-  }
-
-  .jumbotron {
-    margin: 0;
-    height: 400px;
-  }
-}
-
