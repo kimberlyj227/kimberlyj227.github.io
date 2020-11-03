@@ -1,12 +1,13 @@
 import React from "react";
 import Typewriter from 'typewriter-effect';
+
  
 
  const Type = () => {
    return (
     <Typewriter options={{loop: true}}
       onInit={(typewriter) => {
-        typewriter.typeString('HELLO!')
+        typewriter.typeString("HI! I'M KIMBERLY.")
           .callFunction(() => {
             console.log('String typed out!');
           })
