@@ -19,12 +19,13 @@
 
 #projects {
   margin: 50px auto;
+  text-align: center;
   
 }
 
 #projects img {
   margin-bottom: 20px;
-  height: 250px;
+  height: 200px;
   width: auto;
 }
 
