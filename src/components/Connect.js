@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col} from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaFilePdf, FaEnvelope } from 'react-icons/fa';
-import resume from '../assets/kowens_resume.pdf';
+import resume from '../assets/k_owens_resume.pdf';
 
 
 import "../styles/Connect.css";

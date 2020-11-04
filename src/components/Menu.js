@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Image } from "react-bootstrap";
 import "../styles/Navbar.css";
 import logo from "../assets/kowenslogoyellow.png";
-import resume from '../assets/kowens_resume.pdf';
+import resume from '../assets/k_owens_resume.pdf';
 
 
 
