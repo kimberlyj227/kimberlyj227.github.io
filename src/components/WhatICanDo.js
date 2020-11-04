@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col} from "react-bootstrap";
-import { FaHtml5, FaReact, FaCss3, FaNodeJs, FaGit } from "react-icons/fa";
+import { FaHtml5, FaReact, FaCss3, FaNodeJs, FaGit, FaServer } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { DiMongodb, DiJavascript1 } from "react-icons/di";
 import "../styles/What.css";
@@ -15,7 +15,7 @@ const What = () => {
       </Row>
       <Row>
         <Col>
-          <p>JAVASCRIPT | REACT | NODE.JS | MONGO DB | mySQL | HTML | CSS | GIT</p>
+          <p>JAVASCRIPT | REACT | NODE.JS | MONGO DB | mySQL | HTML | CSS | EXPRESS</p>
         </Col>
       </Row>
       <Row id="hexies">
@@ -98,7 +98,7 @@ const What = () => {
             width="139px" height="119px">
             <path fillRule="evenodd"  fill="rgb(215, 157, 31)"
             d="M104.250,0.000 L139.000,59.500 L104.250,119.000 L34.750,119.000 L0.000,59.500 L34.750,0.000 L104.250,0.000 Z"/>
-            <FaGit x="20%" y="15%" className="symbols" />
+            <FaServer x="20%" y="15%" className="symbols" />
           </svg>
         </Col>
       </Row>
