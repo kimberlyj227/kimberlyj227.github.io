@@ -28,7 +28,9 @@ const ProjectModal = ({project, show, onHide}) => {
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={onHide}>Close</Button>
-        <Button href={project.github} target="_blank">Github Repo</Button>
+        {project.github && (
+          <Button href={project.github} target="_blank">Github Repo</Button>
+        )}
         <Button href={project.deployed} target="_blank">Deployed Site</Button>
       </Modal.Footer>
     </Modal>
