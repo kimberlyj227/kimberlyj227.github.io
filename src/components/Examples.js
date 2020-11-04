@@ -60,6 +60,7 @@ const Examples = () => {
               <div className="text">
                 
                 <Button 
+                  className="p-3"
                   onClick={(e) => modalClick(e)}
                   data-name={project.name}
                   data-desc={project.desc}
