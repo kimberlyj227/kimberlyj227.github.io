@@ -1,8 +1,8 @@
-#about {
+/* #about {
     background-color: #f7f7f7;
     text-align: center;
     padding: 30px;
-}
+} */
 
 h2, h5 {
   margin: 30px auto;
@@ -11,7 +11,7 @@ h2, h5 {
 
 }
 
-#about h2 {
+/* #about h2 {
 
     font-size: 52px;
     font-family: "Raleway", sans-serif;
@@ -23,7 +23,7 @@ h2, h5 {
 
 #about h5 {
   color: #f4b46b;
-}
+} */
 
 .card-header {
   background-color: transparent !important;
