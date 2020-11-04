@@ -1,16 +1,10 @@
 #footer {
-  background-image: linear-gradient(to bottom right, #FCE8CF,  #FBD58D, #F8A26D  );
+  background-color: rgb(87, 87, 87);
   min-height: 150px;
   margin-top: 0;
   padding: 20px;
   display: flex;
   justify-content: center;
-  
+  color: #fff;
   
 }
-
-.footer-logo {
-  height: 80px;
-  margin: 0 auto;
-}
-

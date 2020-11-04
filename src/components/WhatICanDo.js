@@ -26,7 +26,9 @@ const What = () => {
             width="139px" height="119px">
             <path fillRule="evenodd"  fill="rgb(215, 157, 31)"
             d="M104.250,0.000 L139.000,59.500 L104.250,119.000 L34.750,119.000 L0.000,59.500 L34.750,0.000 L104.250,0.000 Z"/>
-              <DiJavascript1 x="20%" y="15%" className="symbols"/>
+              
+                <DiJavascript1 x="20%" y="15%" className="symbols" />
+             
           </svg>
         </Col>
         <Col>

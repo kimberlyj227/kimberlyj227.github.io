@@ -2,6 +2,8 @@ import React from "react";
 import { Navbar, Nav, Image } from "react-bootstrap";
 import "../styles/Navbar.css";
 import logo from "../assets/kowenslogoyellow.png";
+import resume from '../assets/kowens_resume.pdf';
+
 
 
 const Menu = () => {
@@ -16,7 +18,7 @@ const Menu = () => {
         <Nav className="mr-auto justify-content-end">
           <Nav.Link href="#examples">PORTFOLIO</Nav.Link>
           <Nav.Link href="#connect">CONNECT WITH ME</Nav.Link>
-          <Nav.Link href="#">RESUME</Nav.Link>
+          <Nav.Link href={resume} target="_blank" rel="noopener noreferrer">RESUME</Nav.Link>
           <Nav.Link href="mailto: kimberly.j.owens@gmail.com">EMAIL</Nav.Link>
           
         </Nav>

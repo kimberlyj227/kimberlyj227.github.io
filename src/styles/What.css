@@ -32,6 +32,7 @@
   text-align: center;
   margin-top: 20px;
   
+  
 }
 
 #what {
@@ -43,4 +44,5 @@
 
 .symbols {
   font-size: 75px;
+  color: rgb(233, 233, 233);
 }
