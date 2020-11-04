@@ -1,17 +1,12 @@
 
 #hexies {
-  margin-top: 100px;
-  width: 75%;
-  margin-left: 15%;
-
+  margin: 100px auto;
+  width: 60%;
+  text-align: center;
 }
 
 .hexagon {
   margin-bottom: 20px;
-}
-
-.hexagon:first-of-type {
-  margin-left: 40px;
 }
 
 #what h4 {
@@ -38,7 +33,7 @@
 #what {
   background-color: rgb(233, 233, 233);
   height: 100%;
-  padding: 30px 20px;
+  padding: 30px ;
 
 }
 

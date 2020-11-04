@@ -1,7 +1,7 @@
 #connect {
   background-color: rgb(233, 233, 233);
   height: 100%;
-  padding: 30px 20px;
+  padding: 30px;
 }
 
 #connect h4 {
@@ -27,5 +27,11 @@
 .symbols {
   font-size: 75px;
   color: rgb(233, 233, 233);
+}
+
+#hexiesC {
+  margin: 100px auto;
+  width: 60%;
+  text-align: center;
 }
 

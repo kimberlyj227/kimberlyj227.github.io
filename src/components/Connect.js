@@ -20,7 +20,7 @@ const Connect = () => {
           <p>LINKED IN | GITHUB | EMAIL ME | VIEW MY RESUME</p>
         </Col>
       </Row>
-      <Row id="hexies">
+      <Row id="hexiesC">
         <Col>
           <svg className="hexagon"
             xmlns="http://www.w3.org/2000/svg"

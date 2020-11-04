@@ -1,7 +1,7 @@
 .jumbotron{
   background-image: url("../assets/yellowhero.png");
   background-size: cover;
-  height: 710px;
+  height: 100%;
   position: relative;
   margin-bottom: 0 !important;
 }
@@ -37,7 +37,7 @@
   color: rgb(66, 66, 66);
   line-height: 1.2;
   text-align: left;
-  width: 400px;
+  
 }
 
 #about h3 {
@@ -50,6 +50,7 @@
 .Typewriter {
   font-size: 3.5rem;
   font-weight: 700;
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -59,8 +60,19 @@
    
   }
 
+  .jumbotron h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  #about p {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+
   .Typewriter {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
   }
 }
