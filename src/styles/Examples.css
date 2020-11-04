@@ -18,12 +18,13 @@
 }
 
 #projects {
-  margin-top: 50px;
+  margin: 50px auto;
+  
 }
 
 #projects img {
   margin-bottom: 20px;
-  height: 200px;
+  height: 250px;
   width: auto;
 }
 
@@ -37,7 +38,7 @@
   background-color: #d79d1f;
   overflow: hidden;
   width: 0;
-  height: 220px;
+  height: 270px;
   transition: .5s ease;
 }
 

@@ -48,7 +48,7 @@ const Examples = () => {
           <h4>RECENT WORK</h4>
         </Col>
       </Row>
-      <Row id="projects" className="col-md-10 offset-md-1">
+      <Row id="projects" >
         {projects.map(project => (
           <Col key={project.id} className="container ">
             <Image 

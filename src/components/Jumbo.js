@@ -19,7 +19,7 @@ const Jumbo = () => {
         <Row className="headings">
           <Col>
             <h2 >KIMBERLY OWENS</h2>
-            <h4>web developer</h4>
+            <h4>WEB DEVELOPER</h4>
           </Col>
         </Row>
         <Row id="about">
