@@ -9,7 +9,7 @@ const Jumbo = () => {
 
   return (
     <Jumbotron fluid>
-       <Menu/>
+       
         <Row className="headings">
           <Col>
             <Type/>

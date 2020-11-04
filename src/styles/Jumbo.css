@@ -17,11 +17,6 @@
   margin-top: 100px;
 }
 
- .jumbotron h1 {
-  font-size: 4rem;
-  font-weight: 700;
-}
-
  .jumbotron h2 {
   font-size: 3rem;
   font-weight: 700;
@@ -42,7 +37,7 @@
   color: rgb(66, 66, 66);
   line-height: 1.2;
   text-align: left;
-  width: 300px;
+  width: 400px;
 }
 
 #about h3 {
@@ -50,11 +45,11 @@
   color: #d79d1f;
   line-height: 1.2;
   text-align: center;
-  width: 300px;
+  
 }
 
 .Typewriter {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 

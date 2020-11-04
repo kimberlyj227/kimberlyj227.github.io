@@ -3,44 +3,52 @@
     "name": "Worthy Origin",
     "github": "https://github.com/Jdusang1/Worthy-Origin",
     "deployed": "https://worthyorigin.herokuapp.com/",
-    "img": "worthyOrigin",
+    "img": "worthy",
     "id": 1,
-    "desc": "An app created with React.js that allows the user to track their carbon footprint for the foods they frequently buy. This app uses external APIs as well as a Mongo database."
+    "desc": "MERN stack app that allows the user to track their carbon footprint for the foods they frequently buy. This app uses external APIs as well as a Mongo database."
   },
 
   {
     "name": "Lyric Cloud",
     "github": "https://github.com/kimberlyj227/lyric-map",
     "deployed": "https://kimberlyj227.github.io/lyric-map/index.html",
-    "img": "lyricCloud",
+    "img": "lyric",
     "id": 2,
-    "desc": "When the user searches for a song, this app creates a word cloud based off the song lyrics. This app utilizes react-word-cloud and an external lyrics API."
+    "desc": "Front end React app that creates a word cloud out of song lyrics. When the user searches for a song, this app creates a word cloud based off the song lyrics. This app utilizes react-word-cloud and an external lyrics API."
   },
 
   {
-    "name": "React Staff Directory",
-    "github": "https://github.com/kimberlyj227/staff-directory",
-    "deployed": "https://kimberlyj227.github.io/staff-directory/index.html",
-    "img": "staffdir",
+    "name": "Espresso Joe",
+    "github": "https://github.com/kimberlyj227/ecommerce",
+    "deployed": "http://espressojoetees.com",
+    "img": "espressojoe",
     "id": 3,
-    "desc": "This app allows the user to view and search for different contacts in their directory."
+    "desc": "An e-commerce website for a t-shirt company. Made with the MERN stack and braintree for the payment options."
   },
 
   {
     "name": "Fitness Tracker",
     "github": "https://github.com/kimberlyj227/fitness-tracker",
     "deployed": "https://liftnow-brunchlater.herokuapp.com/",
-    "img": "fitnesstracker",
+    "img": "workout",
     "id": 4,
     "desc": "Keeping track of one's workouts is made easier with this fitness tracker! This allows the user to create a workout and update the workout in progress as well as view charts about their progress. "
   },
   {
     "name": "Pantheos",
-    "github": "https://github.com/anderam17/Pantheos",
+    "github": "https://github.com/kimberlyj227/Pantheos",
     "deployed": "https://pantheos-education.herokuapp.com/",
-    "img": "pantheos" ,
+    "img": "pantheos1" ,
     "id": 5,
-    "desc": "An app created to allow teachers to easily keep track of their students. This app was created using mySQL and handlebars."
+    "desc": "A full stack app created to allow teachers to easily keep track of their students. This app was created using mySQL, jQuery, and handlebars."
+  },
+  {
+    "name": "Eat A Burger",
+    "github": "https://github.com/kimberlyj227/burger",
+    "deployed": "https://polar-lake-78345.herokuapp.com/",
+    "img": "burger" ,
+    "id": 6,
+    "desc": "This application allows the user to add burgers they would like to eat and mark them as devoured. Once on the devoured side, the user is able to click the button and return the burger to the 'to be devoured side.' The user also has the capability to delete any burger."
   }
   
 

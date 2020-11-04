@@ -1,24 +1,24 @@
-.navbar {
+/* .navbar {
   background-color:transparent;
   position: absolute !important;
   top: 0;
 
-}
+} */
 
 #logo {
   height: 50px;
   width: auto;
 }
-.nav-link {
-  color: #fff !important;
-}
-.navbar a {
+
+
+
+/* .navbar a {
   margin-right: 20px;
   margin-bottom: 20px;
-  padding: 20px;
+  
   color: #424242;
   font-family: "Roboto", sans-serif;
-}
+} */
 
 h4:hover {
   cursor: pointer;
@@ -34,7 +34,7 @@ h4:hover {
 
 a:hover {
   text-decoration: none !important;
-  color: #f7f7f7 !important;
+  color: #d79d1f !important;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,11 +1,12 @@
 import React from "react";
 
 import Jumbo from "./components/Jumbo";
-// import About from "./components/About";
+import Menu from "./components/Menu";
+import What from "./components/WhatICanDo";
 // import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import Gallery from "./components/Gallery";
+import Examples from "./components/Examples";
 import { Wrapper } from "./styles";
 
 function App() {
@@ -15,9 +16,12 @@ function App() {
       <>
        
        <header>
+        <Menu/>
           <Jumbo/>
         </header>
         <div>
+          <What />
+          <Examples />
    
           {/* <About/> */}
           {/* <Gallery /> */}
