@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.80857dac.chunk.css",
-    "main.js": "/static/js/main.71237081.chunk.js",
-    "main.js.map": "/static/js/main.71237081.chunk.js.map",
+    "main.css": "/static/css/main.02916901.chunk.css",
+    "main.js": "/static/js/main.14be056a.chunk.js",
+    "main.js.map": "/static/js/main.14be056a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.8325402e.chunk.js": "/static/js/2.8325402e.chunk.js",
-    "static/js/2.8325402e.chunk.js.map": "/static/js/2.8325402e.chunk.js.map",
+    "static/js/2.0d380541.chunk.js": "/static/js/2.0d380541.chunk.js",
+    "static/js/2.0d380541.chunk.js.map": "/static/js/2.0d380541.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f9020511f0f1e0e003c682b07d8c1c17.js": "/precache-manifest.f9020511f0f1e0e003c682b07d8c1c17.js",
+    "precache-manifest.75548dd37006d6e08405989dab1aafdc.js": "/precache-manifest.75548dd37006d6e08405989dab1aafdc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.80857dac.chunk.css.map": "/static/css/main.80857dac.chunk.css.map",
-    "static/js/2.8325402e.chunk.js.LICENSE.txt": "/static/js/2.8325402e.chunk.js.LICENSE.txt",
-    "static/media/Jumbo.css": "/static/media/heroImg.75a288e1.png",
-    "static/media/kimberly.owens.resume.pdf": "/static/media/kimberly.owens.resume.930b836e.pdf",
+    "static/css/main.02916901.chunk.css.map": "/static/css/main.02916901.chunk.css.map",
+    "static/js/2.0d380541.chunk.js.LICENSE.txt": "/static/js/2.0d380541.chunk.js.LICENSE.txt",
     "static/media/kowens_resume.pdf": "/static/media/kowens_resume.a63967b8.pdf",
-    "static/media/logo.png": "/static/media/logo.44f853b0.png"
+    "static/media/logo.png": "/static/media/logo.44f853b0.png",
+    "static/media/Jumbo.css": "/static/media/yellowhero.abe85668.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.8325402e.chunk.js",
-    "static/css/main.80857dac.chunk.css",
-    "static/js/main.71237081.chunk.js"
+    "static/js/2.0d380541.chunk.js",
+    "static/css/main.02916901.chunk.css",
+    "static/js/main.14be056a.chunk.js"
   ]
 }
