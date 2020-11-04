@@ -5,7 +5,7 @@ import Menu from "./components/Menu";
 import What from "./components/WhatICanDo";
 // import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import Connect from "./components/Connect";
 import Examples from "./components/Examples";
 import { Wrapper } from "./styles";
 
@@ -22,6 +22,7 @@ function App() {
         <div>
           <What />
           <Examples />
+          <Connect />
    
           {/* <About/> */}
           {/* <Gallery /> */}
